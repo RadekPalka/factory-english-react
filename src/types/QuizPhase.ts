@@ -1,0 +1,1 @@
+export type QuizPhase = "typing" | "feedback" |  "end";
