@@ -56,11 +56,6 @@ export const WASTE : Flashcard[]= [
   { polishWord: "mieszanka z przemiałem", englishWords: ["blend with regrind"] },
 ]
 
-export const ANIMALS : Flashcard[]= [
-  {polishWord: "pies", englishWords: ["dog"]},
-  {polishWord: "kot", englishWords: ["cat"]},
-  {polishWord: "lew", englishWords: ["lion"]}
-]
 
 export type Category = {
   label: string;
@@ -73,6 +68,6 @@ export const CATEGORIES = [
   { label: "Produkcja / młynek", cards: PRODUCTION_AND_GRINDER },
   { label: "Magazyn", cards: WAREHOUSE },
   { label: "Odpady", cards: WASTE },
-  { label: "test", cards: ANIMALS}
+
  ]
 
